@@ -1,0 +1,96 @@
+.header {
+  display: flex;
+  background: var(--background-content);
+  width: 100%;
+  height: 3.5rem;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 2rem;
+}
+
+.containerLogo {
+  align-items: center;
+  justify-content: space-around;
+  width: 15%;
+  cursor: pointer;
+
+  h1 {
+    display: none;
+  }
+}
+
+.logo {
+  cursor: pointer;
+  width: 32px;
+  height: 32px;
+}
+
+.inputItem {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+strong {
+  cursor: pointer;
+  color: var(--text-primary);
+}
+
+.mode {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  width: 90%;
+  margin-left: 14px;
+}
+
+.containerAutoComplete {
+  display: flex;
+  width: 75%;
+}
+
+.searchContainer {
+  display: flex;
+  width: 90%;
+  color: var(--text-primary);
+
+  justify-content: space-around;
+}
+
+.icon {
+  background: var(--background-content);
+  border-radius: 50%;
+  width: 2.5rem;
+  height: 2.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 839px) {
+  .mode {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    width: 50%;
+  }
+
+  .containerLogo {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 15%;
+    cursor: pointer;
+
+    h1 {
+      display: flex;
+      color: var(--text-primary);
+      font-weight: bold;
+    }
+  }
+}

@@ -107,7 +107,6 @@ export function Header() {
               value={currency}
               color={theme === 'light' ? 'gray.700' : 'gray.500'}
             >
-              <option value="BRL">BRL</option>
               <option value="USD">USD</option>
             </Select>
           </div>
